@@ -1,0 +1,6 @@
+com\mycompany\ticketsreparaciones\Main.class
+com\mycompany\ticketsreparaciones\Consumidor.class
+com\mycompany\ticketsreparaciones\Ticket$Prioridad.class
+com\mycompany\ticketsreparaciones\Productor.class
+com\mycompany\ticketsreparaciones\Reparador.class
+com\mycompany\ticketsreparaciones\Ticket.class
