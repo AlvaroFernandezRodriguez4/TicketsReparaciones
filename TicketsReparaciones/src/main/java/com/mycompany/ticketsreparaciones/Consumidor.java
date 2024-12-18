@@ -68,6 +68,9 @@ public class Consumidor implements Runnable {
      * @return true si el reparador puede resolver el ticket; false en caso contrario.
      */
     private boolean puedeResolver(Reparador reparador, Ticket ticket) {
+        if (reparador.getNivelReparacion() == 100) {
+            return true;
+        }
         Random random = new Random();
         // Cálculo de probabilidad ajustada para garantizar un mínimo de posibilidad
         int probabilidad = reparador.getNivelReparacion() - ticket.getNivelDificultad() + 50;
