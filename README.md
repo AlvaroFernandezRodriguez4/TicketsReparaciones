@@ -9,7 +9,7 @@ Este proyecto simula un sistema de gestión de tickets de reparación en un tall
 
 - **Cola Prioritaria Concurrente:** Utiliza PriorityBlockingQueue para gestionar tickets según su prioridad (ALTA, MEDIA o BAJA).
 
-- **Productores y Consumidores:** Implementación de hilos productores para generar tickets y hilos consumidores para procesarlos.
+- **Productores y Consumidores:** Implementación de hilos productores para generar tickets e hilos consumidores para procesarlos.
 
 - **Asignación Dinámica:** Los tickets se asignan a reparadores de forma dinámica, teniendo en cuenta su habilidad y probabilidad de éxito.
 
